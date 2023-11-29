@@ -192,6 +192,15 @@ li {
     gap: 40px;
 }
 
+.img_item {
+    border-radius: 20px;
+}
+
+.img_item:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
 .mobile_app {
     display: flex;
     align-items: center;
