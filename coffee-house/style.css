@@ -181,9 +181,14 @@ li {
 }
 
 .about_img {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.column_1,
+.column_2 {
+    display: grid;
     gap: 40px;
 }
 
