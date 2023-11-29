@@ -87,6 +87,11 @@ li {
     line-height: 24px;
 }
 
+.menu_link:hover {
+    border-bottom: 1px solid #403F3D;
+    transition: 0.5s;
+}
+
 .nav_item:hover {
     transform: scale(1.2);
     transition: 0.5s;
@@ -294,4 +299,8 @@ li {
     color: var(--text-light, #E1D4C9);
     gap: 8px;
     line-height: 24px;
+}
+
+.item_contact:hover {
+    border-bottom: 1px solid #E1D4C9;
 }
